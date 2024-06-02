@@ -1,0 +1,43 @@
+.financialManagement{
+    /* height: 90vh; */
+    background: linear-gradient(to right, #72a0c1, #5f9ea0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4%;
+    padding: 1%;
+}
+.financialManagementForm {
+    width: 45.0%;
+    margin: 7.2% auto;
+    background-color: #fff;
+    padding: 1.5%;
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px 10px rgba(1, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .financialManagementForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .financialManagementForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+ 
+  .financialManagementForm .row {
+    display: flex;
+    /* gap: 1px; */
+    align-items: center;
+    padding: 0.5%;
+    border-radius: 15px;
+  }
+  .financialManagementForm label {
+    width: 50%;
+    color: #006b89;
+  } 

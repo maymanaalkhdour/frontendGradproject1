@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+}
+.doctorBlocks {
+  user-select: none;
+  display: flex;
+  padding: 1%;
+  gap: 1%;
+  /* background-color: #e1ebee; */
+}
+
+.block {
+  background-color: #fff;
+  padding: 3px 12px;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+.block .icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.block:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #5072a7;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.block .btn{
+  background-color: #fff;
+  color: #5072a7;
+}

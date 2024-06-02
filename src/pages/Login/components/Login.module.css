@@ -1,0 +1,48 @@
+.loginSection {
+  margin: 5% auto;
+  box-shadow: 0px 2px 15px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 3%;
+  width: 80%;
+}
+.loginSection .row {
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
+  gap: 10%;
+}
+.loginImg {
+  width: 80%;
+  /* background-color: #0a2351; */
+}
+.loginImg img {
+  width: 100%;
+}
+.loginForm {
+  width: 45%;
+}
+.loginForm input {
+  height: 50px;
+}
+
+.loginForm label {
+  font-weight: 600;
+  font-size: 20px;
+  color: #5072a7;
+}
+
+input[type="submit"] {
+  padding: 12px;
+  background-color: #5072a7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  margin-top: 10%;
+}
+input[type="submit"]:hover {
+  background-color: #0a2351;
+}

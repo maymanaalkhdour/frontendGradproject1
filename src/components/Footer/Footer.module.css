@@ -1,0 +1,43 @@
+.footer {
+    /* position: sticky; */
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 25px 50px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+}
+.footerSection{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.footerSection h3 {
+  color:#025b74;
+  font-size: 1.1rem;
+}
+.contactsInfo{
+    display: flex;
+    gap:8px;
+    flex-direction: column;
+}
+.contactInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactInfo p {
+  /* margin-left: 10px; */
+  color: #333;
+}
+.footerSection p {
+    color:#025b74;
+  }

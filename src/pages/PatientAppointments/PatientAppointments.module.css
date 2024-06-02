@@ -1,0 +1,107 @@
+.patientAppointment {
+  background: linear-gradient(to right, #72a0c1, #5f9ea0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5%;
+  padding: 1%;
+}
+
+.patientAppointmentForm {
+  width: 70%;
+  background-color: #fff;
+  padding: 1.5%;
+  border-radius: 15px;
+  box-shadow: 0px 2px 15px 10px rgba(1, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.patientAppointmentForm .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5%;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.patientAppointmentForm label {
+  width: 70%;
+  color: #006b89;
+}
+
+.calendarContainer {
+  margin-bottom: 5%;
+}
+
+.calendarContainer button {
+  background-color: #fff;
+  color: #006b89;
+  transition: 0.1s;
+}
+
+.calendarContainer button:hover {
+  background-color: #006b897d;
+  transition: 0.1s;
+}
+
+.patientAppointmentForm input[type="time"]::selection {
+  background-color: #006b897d;
+  transition: 0.1s;
+}
+
+/* تنسيق المواعيد المحجوزة */
+.bookedDate {
+    background-color: #ff00005c; /* يمكنك تغيير اللون كما تشاء */
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+  }
+  
+  /* تنسيق السهمان */
+  .react-calendar__navigation button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 5px; /* تعديل حجم السهمان حسب الحاجة */
+  }
+  
+/* تنسيق المواعيد المحجوزة */
+.bookedDate {
+    background-color: #ff00005c; /* يمكنك تغيير اللون كما تشاء */
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+  }
+  /* .bookedD{ */
+
+/* background-color: #f6f5f55c;  */
+/* border-radius: 50%; */
+/* width: 25px; */
+/* height: 25px; */
+/* margin: auto; */
+/*      */
+  /* } */
+  .block {
+    background-color: #fff;
+    padding: 0.7%;
+    margin-top: 10px;
+    border-radius: 14px;
+    box-shadow: 0px 2px 15px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    width: 70%;
+    text-align: center;
+  }
+  .block:hover {
+    background-color: #e1ebee;
+  }
+  h2 {
+    color: #5072a7;
+    font-size: 1.1rem; /* حجم النص */
+    font-weight: 700;
+  }
+  
+  

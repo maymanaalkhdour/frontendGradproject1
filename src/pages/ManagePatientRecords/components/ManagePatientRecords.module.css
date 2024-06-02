@@ -1,0 +1,67 @@
+.searchSession{
+  height:25 0vh ;
+ 
+  background: linear-gradient(to right, #72a0c1, #5f9ea0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding: 1%;
+} 
+.searchContainer {
+    width: 32%;
+    margin:5% auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 0px 2px 15px 10px rgba(0, 0, 0, 0.19);
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  .sessionsbuttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: chartreuse; */
+    gap: 20px;
+  }
+  .sessionButton{
+    margin-bottom: 10px;
+    /* background-color: darksalmon; */
+  }
+  .formSession p {
+    background-color: white;
+    margin-top: 3px;
+    padding: 10px;
+    border-radius: 9px;
+  }
+  .formSession h2{
+    color:rgb(26, 61, 96)
+  }
+  .formSession span{
+    background-color: white;
+    
+    margin: 10px;
+    padding: 10px;
+    border-radius: 9px;
+  }
+  
+  .formSession .span1{
+  /* background-color: aquamarine; */
+  height: 70px;
+  /* margin: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.button1{
+  margin-top: 9px;
+}
+/* .formGroupmangingupdate{ */
+  /* display: flex; */
+  /* flex-direction: row; */
+/* } */

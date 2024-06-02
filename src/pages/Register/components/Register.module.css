@@ -1,0 +1,19 @@
+.registerPage{
+    height: 100vh;
+    background: linear-gradient(to right, #064674bb, #37719a9e);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registerForm {
+    margin: auto;
+    width : 40%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.19);
+}
+.error{
+    color:rgb(227, 25, 25);
+    font-size: 12px;
+}
